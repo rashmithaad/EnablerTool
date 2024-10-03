@@ -1,0 +1,18 @@
+package com.demo.enablerbackendtool.service;
+
+import org.springframework.stereotype.Service;
+import java.util.HashMap;
+import java.util.Map;
+
+@Service
+public class PowerBIService {
+
+    public Map<String, String> getPowerBIAccessToken() {
+        // Logic to get the Power BI access token and report ID
+        // For example purposes, we are returning dummy data
+        Map<String, String> powerBIData = new HashMap<>();
+        powerBIData.put("token", "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsIng1dCI6IkwxS2ZLRklfam5YYndXYzIyeFp4dzFzVUhIMCIsImtpZCI6IkwxS2ZLRklfam5YYndXYzIyeFp4dzFzVUhIMCJ9.eyJhdWQiOiJodHRwczovL2FuYWx5c2lzLndpbmRvd3MubmV0L3Bvd2VyYmkvYXBpIiwiaXNzIjoiaHR0cHM6Ly9zdHMud2luZG93cy5uZXQvZmM3YTgwNWMtNmE5NS00Y2FlLWFhM2UtMGNiZDE1MjIxZDkxLyIsImlhdCI6MTcxODc3NzkzMSwibmJmIjoxNzE4Nzc3OTMxLCJleHAiOjE3MTg3ODE4MzEsImFpbyI6IkUyZGdZRGhVTDZXMTk1YXZvV250aEJYN2oxczhBQUE9IiwiYXBwaWQiOiI2N2JkOTg2OS1hMzFlLTRkMWItYjg2Ny0zNzJkNTA4ZTc4YjgiLCJhcHBpZGFjciI6IjEiLCJpZHAiOiJodHRwczovL3N0cy53aW5kb3dzLm5ldC9mYzdhODA1Yy02YTk1LTRjYWUtYWEzZS0wY2JkMTUyMjFkOTEvIiwiaWR0eXAiOiJhcHAiLCJvaWQiOiI1NTdmOWFhOC05OTViLTQ5MDEtOGUzZS1mY2NjN2U2OWExNmUiLCJyaCI6IjAuQWNZQVhJQjZfSlZxcmt5cVBneTlGU0lka1FrQUFBQUFBQUFBd0FBQUFBQUFBQURHQUFBLiIsInN1YiI6IjU1N2Y5YWE4LTk5NWItNDkwMS04ZTNlLWZjY2M3ZTY5YTE2ZSIsInRpZCI6ImZjN2E4MDVjLTZhOTUtNGNhZS1hYTNlLTBjYmQxNTIyMWQ5MSIsInV0aSI6Im5velNaa2Y1NUVXdzZRYWFLX3dfQUEiLCJ2ZXIiOiIxLjAiLCJ4bXNfaWRyZWwiOiI3IDI2In0.ncXmbuNv4yEla6uCoYPfgS2D07PL06QXv4keswo1qBhakvXinmFKF99rP9dWOE5fO_q19lIXRX4CqDeOUrgPgTLYOs5d4JXoM8fN3HTN6i_WqEbFTk2EjP292ZsXIIq3dBHKzGHQX2G3coxONK3CFA7JUOPPidNAczZekQT3nV5Xt5Q1l0inAwZrjg3oCurZfx1rZC3k7yuxuyTVMBw_4cP6VyFL259rHlE0O242ZcNSzuHgW0av321kUR1t5gG4EqO6LANZUfPLbmHW8S015w5Jf1FkTlmLE1GuhL1v627t5ahceJVZl3cg5OLDWO7kIy6Ng7Sqgt53e4xSg");
+        powerBIData.put("reportId", "4f8840e1-119b-4067-8e90-f9002ecf6378");
+        return powerBIData;
+    }
+}
